@@ -283,67 +283,6 @@ interface PixverseResponse<T> {
 }
 ```
 
-## Contributing
-
-We welcome contributions to the Pixverse API Client! Here's how you can help:
-
-### Development Guidelines
-
-1. **Fork the Repository**: Create a fork of the project on GitHub
-2. **Create a Feature Branch**: `git checkout -b feature/your-feature-name`
-3. **Follow Code Standards**: Use TypeScript and follow the existing code style
-4. **Add Tests**: Include tests for new functionality
-5. **Update Documentation**: Update README and code comments as needed
-6. **Submit a Pull Request**: Create a PR with a clear description of changes
-
-### Code Style
-
-- Use TypeScript for all new code
-- Follow existing naming conventions
-- Add JSDoc comments for public methods
-- Use meaningful variable and function names
-- Keep functions focused and single-purpose
-
-### Testing
-
-```bash
-# Run tests
-bun test
-
-# Run linting
-bun run lint
-
-# Run type checking
-bun run type-check
-```
-
-### Reporting Issues
-
-When reporting bugs or requesting features:
-
-1. **Search Existing Issues**: Check if the issue already exists
-2. **Provide Details**: Include error messages, code samples, and environment info
-3. **Use Templates**: Follow the issue templates when available
-4. **Be Specific**: Clearly describe the expected vs actual behavior
-
-### Pull Request Process
-
-1. Ensure all tests pass
-2. Update documentation for any API changes
-3. Add entries to CHANGELOG.md for significant changes
-4. Request review from maintainers
-5. Address feedback promptly
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-- **Documentation**: Check this README and inline code documentation
-- **Issues**: Report bugs and request features on [GitHub Issues](https://github.com/your-username/pixverse-api/issues)
-- **Discussions**: Join community discussions on [GitHub Discussions](https://github.com/your-username/pixverse-api/discussions)
-
 ## Changelog
 
 ### v1.0.0

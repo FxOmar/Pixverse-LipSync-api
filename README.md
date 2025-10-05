@@ -53,7 +53,7 @@ If you want to contribute or run the project locally:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/pixverse-api.git
+git clone git@github.com:FxOmar/Pixverse-LipSync-api.git
 cd pixverse-api
 
 # Install dependencies
@@ -115,7 +115,6 @@ const videoBlob = new Blob([videoBuffer], { type: 'video/mp4' });
 const audioPath = path.join(__dirname, audio);
 const audioBuffer = fs.readFileSync(audioPath);
 const audioBlob = new Blob([audioBuffer], { type: 'audio/mpeg' });
-
 
 async function demonstratePixverseAPI() {
   try {
